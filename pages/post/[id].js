@@ -5,7 +5,7 @@ export default function Post() {
   const router = useRouter();
   console.log(router)
   return (
-    <MainLayout>
+    <MainLayout title="Post" keywords="post page">
       <h1>Post: {router.query.id}</h1>
     </MainLayout>
   )

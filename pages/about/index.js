@@ -7,11 +7,7 @@ export default function Index() {
     Router.push('/')
   };
   return (
-  <MainLayout>
-    <Head>
-      <title>About</title>
-      <meta name="keywords" content="about page"/>
-    </Head>
+  <MainLayout title="About" keywords="about page">
     <h1>About</h1>
     <button onClick={clickBack}>Back</button>
   </MainLayout>
