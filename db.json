@@ -1,0 +1,7 @@
+{
+  "posts": [
+    {"id":  1, "title":  "React", "body":  "A library for creating awesome user interfaces"},
+    {"id":  2, "title":  "Next", "body":  "A framework for server side rendering with react applications"},
+    {"id":  3, "title":  "Redux", "body":  "A library for controlling state in single page applications"}
+  ]
+}
